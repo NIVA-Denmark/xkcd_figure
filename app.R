@@ -10,8 +10,8 @@ ui <- basicPage(
 # Define server logic to summarize and view selected dataset ----
 server <- function(input, output) {
   
-  font_import(paths=c("./"),prompt=F)   ## because we downloaded to working directory
-  loadfonts()
+  #font_import(paths=c("./"),prompt=F)   ## because we downloaded to working directory
+  #loadfonts()
   
   
   flist<-paste(fonts(),collapse = "\n")
